@@ -11,10 +11,10 @@ export default function App() {
       <View style={{ height: 20 }} />
       <Image
         style={styles.logo}
-        source={count < 20 ? require('./assets/lapp-small.png') : require('./assets/shiba.jpg')}
+        source={count < 5 ? require('./assets/lapp-small.png') : require('./assets/shiba.jpg')}
       />
       <View style={{ height: 20 }} />
-      <Text>Klik på denne knap tyve gange og se hvad der sker.</Text>
+      <Text>Klik på denne knap fem gange og se hvad der sker.</Text>
       <View style={{ height: 20 }} />
       <Button
         title="Increment"
